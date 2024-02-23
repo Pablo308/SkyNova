@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Projekt SkyNova </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="{{ url_for('static', filename='images/DroneIcon.png') }}">			
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/mainB.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="/indexPL">SkyNova</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/teamPL">Drużyna</a></li>
+						<li class="hov"><a>Dowiedz się więcej</a>
+							<ul>
+								<li><a href="/informationPL">Informacje</a></li>
+								<li><a href="/modelsPL">Modele</a></li>
+							</ul>
+						</li>						
+						<li class="hov"><a>Język</a>
+							<ul>
+								<li><a href="#"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polski</a></li>
+								<li><a href="/benefits"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> Angielski</a></li>
+								<li><a href="/benefitsES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Hiszpański</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Jakie są korzyści z projektu SkyNova</h2>
+						</header>
+					</div>
+					<a href="#one" class="goto-next scrolly">Następne</a>
+				</section>
+
+                <!-- Two -->
+				<section id="one" class="spotlight style2 right">
+					<span class="image fit main"><img src="{{ url_for('static', filename='images/PoliceD') }}" alt="Police drones" /></span>
+					<div class="content">
+						<header>
+							<h2>Szybciej</h2>
+						</header>
+						<h3>Jednym z plusów korzystania z tej aplikacji byłby szybszy czas reakcji agencji publicznych i skrócenie czasu od otrzymania zgłoszenia do przybycia pierszej pomocy.</h3>						
+					</div>					
+					<a href="#two" class="goto-next scrolly">n</a>
+				</section>
+
+			<!-- Three -->
+				<section id="two" class="spotlight style3 left">					
+					<span class="image fit main bottom"><img src="{{ url_for('static', filename='images/ReconD') }}" alt=""/></span>
+					<div class="content">
+						<header>
+							<h2>Bezpieczeństwo</h2>
+						</header>
+						<h3>Uzyskanie lepszego wglądu w sytuację w celu lepszej oceny pilności zgłoszenia.  </p>
+							
+							Wsparcie serwisowe 24/7 bez potrzeby zarządzania ludźmi</h3>						
+					</div>
+					<a href="#footer" class="goto-next scrolly">Następne</a>
+				</section>			
+
+			
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>

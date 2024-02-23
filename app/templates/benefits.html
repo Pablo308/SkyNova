@@ -1,0 +1,81 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> SkyNova Project </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="{{ url_for('static', filename='images/DroneIcon.png') }}">			
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/mainB.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="/index">SkyNova</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/team">Team</a></li>
+						<li class="hov"><a>Learn more</a>
+							<ul>
+								<li><a href="/information">Informations</a></li>
+								<li><a href="/models">Models</a></li>
+							</ul>
+						</li>						
+						<li class="hov"><a>Language</a>
+							<ul>
+								<li><a href="/benefitsPL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polish</a></li>
+								<li><a href="#"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> English</a></li>
+								<li><a href="/benefitsES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Spanish</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>What are the benefits of project SkyNova</h2>
+						</header>
+					</div>
+					<a href="#one" class="goto-next scrolly">Next</a>
+				</section>
+
+                <!-- Two -->
+				<section id="one" class="spotlight style2 right">
+					<span class="image fit main"><img src="{{ url_for('static', filename='images/PoliceD') }}" alt="Police drones" /></span>
+					<div class="content">
+						<header>
+							<h2>Faster</h2>
+						</header>
+						<h3>One of the pluses of using this application would be faster reaction time of public agets and shortening the time from obtaining a report to the arrival of first aiders.</h3>						
+					</div>					
+					<a href="#two" class="goto-next scrolly">Next</a>
+				</section>
+
+			<!-- Three -->
+				<section id="two" class="spotlight style3 left">					
+					<span class="image fit main bottom"><img src="{{ url_for('static', filename='images/ReconD') }}" alt=""/></span>
+					<div class="content">
+						<header>
+							<h2>Safety</h2>
+						</header>
+						<h3>Gain better insight into the situation to better assess the urgency of your report </p>
+							
+							24/7 service support without the need for human management</h3>						
+					</div>
+					<a href="#footer" class="goto-next scrolly">Next</a>
+				</section>			
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>

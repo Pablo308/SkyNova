@@ -1,0 +1,135 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> SkyNova Proyecto </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="{{ url_for('static', filename='images/DroneIcon.png') }}">			
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/mainC.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="/indexES">Skynova</a></h1>
+				<nav id="nav">
+					<ul>
+						<li class="hov"><a href="/teamES">Equipo</a></li>
+						<li class="hov">Más información
+							<ul>
+								<li><a href="/benefitsES">Beneficios</a></li>
+								<li><a href="/modelsES">Modelos</a></li>
+							</ul>
+						</li>
+						<li class="hov">Idioma
+							<ul>
+								<li><a href="/informationPL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polaco</a></li>
+								<li><a href="/information"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> INGLÉS</a></li>
+								<li><a href="#"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Español</a></li>
+							</ul>
+						  </li>
+					</ul>
+				</nav>
+			</header>
+				<section id="banner">
+					<div class="content">
+						<header>
+							<h2>Información</h2>
+							<p>Más información sobre nuestro proyecto</p>
+						</header>
+						
+					</div>
+					<a href="#one" class="goto-next scrolly">Siguiente</a>
+				</section>
+
+			<!-- One -->
+				<section id="one" class="spotlight style1 bottom">
+					
+					<span class="image fit main"><img src="{{ url_for('static', filename='images/agriculture-4208863_1280.jpg') }}" alt="" /></span>
+					<div class="content">
+						<div class="container">
+							<div class="row">
+								<div class="col-4 col-12-medium">
+									<header>
+										<h2>¿Qué es el Skynova?</h2></header>
+										<p><strong>Skynova</strong> project es una plataforma que le ayuda a conectar y operar remotamente su flota de drones en cualquier lugar que desee. Nuestro sistema le permite ver los datos y comunicarse con la base de drones, drones, estaciones de acoplamiento en un panel fácil de entender.</p>
+									
+								</div>
+								<div class="col-4 col-12-medium">
+									<h2>¿Por qué hemos creado este proyecto?</h2>
+									<p>Nuestro objetivo es utilizar este proyecto para mejorar la eficacia operativa de policías, bomberos y otros servicios esenciales en sus actividades cotidianas. A través de este sitio web, los servicios públicos pueden operar ahora con mayor facilidad y eficiencia en comparación con los métodos anteriores. El manejo y la operación racionalizados de los drones contribuyen a una mejora general, garantizando una mayor seguridad para las personas.</p>
+								</div>
+								<div class="col-4 col-12-medium">
+									<h2>¿Cómo funciona?</h2>
+									<p>Inicia la comunicación transmitiendo un mensaje concreto al servidor, que responde y permite al ordenador recuperar la información correspondiente.<br> Ahora que ya sabemos cómo funciona, podemos adentrarnos en una descripción más completa del proyecto.
+										La conexión bidireccional entre el servidor de la base de datos de drones y el cliente se establece mediante la tecnología de sockets de Python. El mainframe de la base de datos de drones recopila los datos de cada dron, los almacena en la base de datos y posteriormente los presenta en el panel de control del sitio web.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+					<a href="#two" class="goto-next scrolly">Siguiente</a>
+				</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="{{ url_for('static', filename='images/drone-3590739_1280.jpg') }}" alt="" /></span>
+					<div class="content">
+						<header>
+							<h2>Lo que tenemos que utilizar para crear <strong>Skynova</strong>?</h2>
+						</header>
+						<table>
+							<tr>
+								<th><a style="color: white; text-decoration: none;" href="https://socket.io/docs/v4/" target="_blank">Socket.io</a></th>
+							</tr>
+							<tr>
+								<th><a style="color: white; text-decoration: none;" href="https://www.sqlalchemy.org/" target="_blank">SQLalchemy</a></th>
+							</tr>
+							<tr>
+								<th><a style="color: white; text-decoration: none;" href="https://flask.palletsprojects.com/en/3.0.x/" target="_blank">Flask</a></th>
+							</tr>
+							<tr>
+								<th><a style="color: white; text-decoration: none;" href="https://www.flytbase.com/" target="_blank">Flytbase</a></th>
+							</tr>
+							<tr>
+								<th><a style="color: white; text-decoration: none;" href="https://www.python.org/s" target="_blank">Python</a></th>
+							</tr>
+						</table>				
+					</div>
+					<a href="#three" class="goto-next scrolly">Siguiente</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="{{ url_for('static', filename='images/multicopter-1873532_1280.jpg') }}" alt="" /></span>
+
+					<div class="content">
+						<header>
+							<h2>Globodain Technology Corporation</h2>
+						</header>
+						
+								<p>Globodain es una empresa tecnológica con sede en Sevilla, España. 
+									Nos centramos principalmente en el desarrollo de tecnología digital 
+									y colaboramos activamente en proyectos de la Unión Europea, 
+									incluyendo el Programa de Movilidad Erasmus+. 
+									Globodain se centra en realizar avances tecnológicos y crear un impacto positivo a través de la innovación y la colaboración.</p>						
+					</div>
+					<a href="#footer" class="goto-next scrolly">Siguiente</a>
+				</section>
+				
+			
+
+			
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>

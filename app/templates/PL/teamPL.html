@@ -1,0 +1,84 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title> Projekt SkyNova </title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="{{ url_for('static', filename='images/DroneIcon.png') }}">			
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/mainD.css') }}" />
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>
+		<style>
+			#banner{
+				background-image: none;
+				background: none;
+			}
+		</style>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="/indexPL">SkyNova</a></h1>
+				<nav id="nav">
+					<ul>
+					<li class="hov"><a>Dowiedz się więcej</a>
+						<ul>
+							<li><a href="/benefitsPL">Korzyści</a></li>
+							<li><a href="/informationPL">Informacje</a></li>
+							<li><a href="/modelsPL">Modele</a></li>
+						</ul>
+					</li>
+						<li><a>Język</a>
+                            <ul>
+								<li><a href="#"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polski</a></li>
+								<li><a href="/team"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> Angielski</a></li>
+								<li><a href="/teamES"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Hiszpański</a></li>
+							</ul>
+                          </li>
+					</ul>
+				</nav>
+			</header>
+				<section id="banner">
+					<div class="content">
+						<div id="hed"><h2 id="team">Drużyna</h2></div>
+						<span class="image">Mateusz <img src="{{ url_for('static', filename='images/people/Mateusz.png') }}" alt="" class="people"/></span>
+                        <span class="image">Mikołaj <img src="{{ url_for('static', filename='images/people/MikolajPsuja.png') }}" alt="" class="people"/></span>
+                        <span class="image">Bartosz K<img src="{{ url_for('static', filename='images/people/BartekK.png') }}" alt="" class="people"/></span>
+                        <span class="image">Paweł <img src="{{ url_for('static', filename='images/people/Pawel.png') }}" alt="" class="people"/></span>
+					</div>
+                    <div class="content">
+						<span class="image">Kacper <img src="{{ url_for('static', filename='images/people/Kacper.png') }}" alt="" class="people"/></span>
+                        <span class="image">Nikolas <img src="{{ url_for('static', filename='images/people/Niko.png') }}" alt="" class="people"/></span>
+                        <span class="image">Karol <img src="{{ url_for('static', filename='images/people/karol.png') }}" alt="" class="people"/></span>
+                        <span class="image">Radosław <img src="{{ url_for('static', filename='images/people/Radek1.png') }}" alt="" class="people"/></span>
+					</div>
+                    <div class="content">
+						<span class="image">Bartosz G<img src="{{ url_for('static', filename='images/people/BartekG.png') }}" alt="" class="people"/></span>
+                        <span class="image">Sebastian <img src="{{ url_for('static', filename='images/people/Seba.png') }}" alt="" class="people"/></span>
+                        <span class="image">Adam <img src="{{ url_for('static', filename='images/people/Adam.png') }}" alt="" class="people"/></span>
+                        <span class="image">Ahmad <img src="{{ url_for('static', filename='images/people/Ahmad.png') }}" alt="" class="people"/></span>
+					</div>
+                    <div class="content">
+						<span class="image">Neeve<img src="{{ url_for('static', filename='images/people/neeve.png') }}" alt="" class="people"/></span>
+                        <span class="image">Rose<img src="{{ url_for('static', filename='images/people/rose.png') }}" alt="" class="people"/></span>
+					</div>
+                   
+				</section>
+
+			
+
+			
+	</div>
+
+	<!-- Scripts -->
+	<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+	<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>

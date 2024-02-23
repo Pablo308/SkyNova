@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SkyNova Proyecto</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+		<link rel="icon" href="{{ url_for('static', filename='images/DroneIcon.png') }}">			
+		<link rel="stylesheet" type="text/css "href="{{ url_for('static', filename='css/main.css') }}" />
+		<noscript><link rel="stylesheet" href="{{ url_for('static', filename='css/noscript.css') }}" /></noscript>		
+		<style>
+			#banner{
+				background-image: url("{{ url_for('static', filename='images/Drone3') }}");
+			}
+		</style>
+	</head>
+	<body class="is-preload landing">
+		<div id="page-wrapper">
+			<header id="header">
+				<h1 id="logo"><a href="/indexES">Skynova</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="/teamES">Equipo</a></li>
+						<li class="hov"><a>Más información</a>
+							<ul>
+								<li><a href="/benefitsES">Beneficios</a></li>
+								<li><a href="/informationES">Información</a></li>
+							</ul>
+						</li>						
+						<li class="hov"><a>Idioma</a>
+							<ul>
+								<li><a href="/modelsPL"><img src="{{ url_for('static', filename='images/country_flag/poland-26125_640.png') }}" class="photos" alt="flag"> Polaco</a></li>
+								<li><a href="/models"><img src="{{ url_for('static', filename='images/country_flag/union-jack-1027898_640.png') }}" class="photos"alt="flag1"> INGLÉS</a></li>
+								<li><a href="#"><img src="{{ url_for('static', filename='images/country_flag/spain-28530_640.png') }}" class="photos"alt="flag2"> Español</a></li>
+							</ul>
+						</li>
+					</ul>
+				</nav>
+			</header>
+            <section id="banner">
+                <div class="content">
+                    <header>
+                        <h2>Modelos ilustrativos del proyecto</h2>
+                    </header>
+                </div>
+                <a href="#two" class="goto-next scrolly">Siguiente</a>
+            </section>		
+			
+			<!-- One -->
+			<section id="one" class="spotlight style1 bottom">
+				<span class="image fit main"><img src="{{ url_for('static', filename='images/pic02.png') }}" alt="" /></span>
+				<div class="content">
+					<div class="container">
+						<div class="row">
+							<div class="col-4 col-12-medium">
+								<h2>Imagen y algunas informaciones</h2>
+							</div>
+							<div class="col-4 col-12-medium">
+								
+							</div>
+							<div class="col-4 col-12-medium">
+								
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#two" class="goto-next scrolly">Siguiente</a>
+			</section>
+
+			<!-- Two -->
+				<section id="two" class="spotlight style2 right">
+					<span class="image fit main"><img src="images/pic03.jpg" alt="" /></span>
+					<div class="content">							
+						<h2>Imagen y algunas informaciones</h2>				
+					</div>
+					<a href="#three" class="goto-next scrolly">Siguiente</a>
+				</section>
+
+			<!-- Three -->
+				<section id="three" class="spotlight style3 left">
+					<span class="image fit main bottom"><img src="images/pic04.jpg" alt="" /></span>
+					<div class="content">						
+						<h2>Imagen y algunas informaciones</h2>									
+					</div>
+				</section>				
+
+			
+	</div>
+		</div>
+
+		<!-- Scripts -->
+		<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.dropotron.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/browser.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/breakpoints.min.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+		<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+
+	</body>
+</html>
